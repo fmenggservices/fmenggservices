@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#092b25">
+  <meta name="description" content="FM Engineering Services provides On-Grid, Off-Grid and Hybrid Solar EPC solutions. Get a solar site assessment and quotation.">
+  <title>FM Engineering Services | Solar EPC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--green:#0b342c;--green2:#145443;--lime:#c7f36b;--ink:#14251f;--muted:#66766f;--cream:#f6f8f3;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid #e9eee9}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-family:Manrope,sans-serif;font-weight:800;letter-spacing:-.5px}.mark{width:42px;height:42px;border-radius:12px;background:var(--green);display:grid;place-items:center;color:var(--lime);font-size:20px;letter-spacing:-2px;box-shadow:0 6px 16px #0b342c25}.brand small{display:block;font:600 9px "DM Sans";letter-spacing:2px;color:#75837b;margin-top:2px}.links{display:flex;gap:29px;align-items:center;font-size:13px;font-weight:600;color:#52625a}.links a:hover{color:#17805c}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border-radius:8px;background:var(--lime);color:#14251f;font-weight:800;font-size:13px;border:0;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px #c7f36b55}.btn.dark{background:var(--green);color:white}.menu{display:none;background:none;border:0;font-size:25px}
+    .hero{background:var(--green);color:white;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:620px;height:620px;border:1px solid #ffffff18;border-radius:50%;right:-160px;top:-240px;box-shadow:0 0 0 55px #ffffff08,0 0 0 110px #ffffff05}.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:50px;min-height:590px;padding-top:58px;padding-bottom:65px;position:relative}.eyebrow{font-size:11px;font-weight:800;letter-spacing:2.3px;text-transform:uppercase;color:#b8e86b;display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";width:27px;height:2px;background:var(--lime)}h1,h2,h3{font-family:Manrope,sans-serif;letter-spacing:-1.6px}h1{font-size:clamp(42px,5.3vw,66px);line-height:1.06;margin:20px 0 22px;max-width:650px}h1 span{color:var(--lime)}.hero p{font-size:16px;line-height:1.8;color:#d1ddd7;max-width:510px;margin:0 0 30px}.hero-actions{display:flex;gap:13px;flex-wrap:wrap}.btn.outline{border:1px solid #ffffff65;color:white;background:transparent}.hero-note{margin-top:38px;display:flex;gap:24px;flex-wrap:wrap;color:#c3d2ca;font-size:12px}.hero-note span:before{content:"✓";color:var(--lime);font-weight:900;margin-right:8px}.hero-visual{position:relative;min-height:420px;border-radius:22px;overflow:hidden;background:linear-gradient(180deg,#153e32aa,#092b25aa),url("https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=85") center/cover;box-shadow:0 24px 60px #001b144d}.visual-card{position:absolute;left:22px;bottom:22px;background:white;color:var(--ink);border-radius:13px;padding:17px 19px;max-width:230px;box-shadow:0 10px 35px #001b1440}.visual-card b{font:800 13px Manrope;display:block}.visual-card small{color:var(--muted);line-height:1.5;display:block;margin-top:5px}.sun{position:absolute;right:32px;top:30px;width:68px;height:68px;border-radius:50%;background:#d6fa8b;box-shadow:0 0 0 16px #d6fa8b22,0 0 0 34px #d6fa8b12}
+    .trust{background:#fff;border-bottom:1px solid #edf1ed}.trust-row{display:grid;grid-template-columns:repeat(3,1fr);padding:25px 0;gap:20px}.trust-item{display:flex;gap:13px;align-items:center;justify-content:center}.trust-icon{width:38px;height:38px;border-radius:11px;background:#eff7e7;display:grid;place-items:center;color:#236143;font-size:18px}.trust-item b{display:block;font:700 12px Manrope}.trust-item small{font-size:11px;color:var(--muted)}
+    section{padding:88px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 42px}.section-head .eyebrow{justify-content:center;color:#37805d}.section-head h2{font-size:clamp(31px,4vw,43px);margin:15px 0 13px}.section-head p{color:var(--muted);line-height:1.75;margin:0;font-size:14px}.services{background:var(--cream)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #e9eee8;border-radius:16px;padding:28px 25px;transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:0 18px 40px #183c2812}.card-icon{width:52px;height:52px;border-radius:14px;background:#eef7e5;display:grid;place-items:center;font-size:24px;margin-bottom:22px}.card h3{font-size:21px;letter-spacing:-.5px;margin:0 0 10px}.card p{font-size:13px;line-height:1.75;color:var(--muted);margin:0 0 18px}.tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1px;color:#276443;background:#eff7e9;padding:7px 10px;border-radius:30px;text-transform:uppercase}
+    .about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:65px;align-items:center}.about-image{min-height:410px;border-radius:18px;background:linear-gradient(180deg,#092b2520,#092b2560),url("https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1100&q=85") center/cover;position:relative}.about-badge{position:absolute;right:-18px;bottom:24px;background:var(--lime);padding:18px 20px;border-radius:12px;font:800 13px Manrope;max-width:170px}.about-copy .eyebrow{color:#37805d}.about-copy h2{font-size:clamp(32px,4vw,44px);line-height:1.15;margin:17px 0}.about-copy p{font-size:14px;line-height:1.85;color:var(--muted)}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:24px}.check{font-size:12px;font-weight:700}.check:before{content:"✓";color:#2d8a5a;font-size:16px;margin-right:8px}
+    .process{background:var(--green);color:white}.process .section-head p{color:#c3d2ca}.process .section-head .eyebrow{color:var(--lime)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.step{border-top:1px solid #ffffff35;padding-top:20px}.step-no{color:var(--lime);font:800 12px Manrope;letter-spacing:1px}.step h3{font-size:17px;letter-spacing:-.4px;margin:12px 0 8px}.step p{font-size:12px;line-height:1.7;color:#c3d2ca;margin:0}
+    .contact{background:#f6f8f3}.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:start}.contact-copy h2{font-size:40px;line-height:1.13;margin:15px 0}.contact-copy p{color:var(--muted);line-height:1.8;font-size:14px}.contact-detail{display:flex;gap:13px;align-items:center;margin-top:22px}.contact-detail .ci{width:42px;height:42px;background:white;border-radius:12px;display:grid;place-items:center}.contact-detail b{font-size:13px;display:block}.contact-detail small{color:var(--muted);font-size:12px}.form{background:white;border:1px solid #e7ece6;border-radius:17px;padding:30px;box-shadow:0 15px 40px #102d1a0a}.form h3{font-size:23px;margin:0 0 6px}.form>p{font-size:12px;color:var(--muted);margin:0 0 22px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field.full{grid-column:1/-1}.field label{display:block;font-size:11px;font-weight:700;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;padding:12px 13px;border:1px solid #dfe7df;border-radius:8px;font:13px "DM Sans";outline:none;background:#fff}.field input:focus,.field select:focus,.field textarea:focus{border-color:#5a9b69}.field textarea{min-height:90px;resize:vertical}.form button{width:100%;margin-top:17px}.form-note{font-size:10px;color:#89958e;margin-top:10px;line-height:1.5}
+    footer{background:#08251f;color:#d5e0d9;padding:32px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-brand{font:800 15px Manrope;color:white}.footer-brand small{display:block;font:11px "DM Sans";color:#9db0a5;margin-top:5px}.footer-links{display:flex;gap:20px;font-size:12px;color:#c2d0c8}.copyright{font-size:10px;color:#91a59a;margin-top:23px;padding-top:18px;border-top:1px solid #ffffff20}
+    .float-wa{position:fixed;right:20px;bottom:20px;z-index:20;background:#20bd67;color:white;padding:13px 17px;border-radius:50px;font-size:12px;font-weight:800;box-shadow:0 8px 24px #063b2450}
+    @media(max-width:850px){.links{display:none;position:absolute;top:78px;left:0;right:0;background:white;padding:22px;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e9eee9}.links.open{display:flex}.menu{display:block}.nav>.btn{display:none}.hero-grid{grid-template-columns:1fr;gap:35px;padding-top:55px}.hero-visual{min-height:340px}.about-grid,.contact-grid{grid-template-columns:1fr;gap:35px}.about-image{min-height:330px}.steps{grid-template-columns:1fr 1fr}.cards{grid-template-columns:1fr}.trust-row{grid-template-columns:1fr;gap:16px}.trust-item{justify-content:flex-start}.section-head{text-align:left}.section-head .eyebrow{justify-content:flex-start}}
+    @media(max-width:520px){.wrap{width:min(100% - 32px,1160px)}.nav{height:68px}.links{top:68px}.hero-grid{min-height:auto;padding:52px 0}.hero-visual{min-height:290px}h1{font-size:43px}.hero p{font-size:14px}.hero-note{gap:12px;flex-direction:column}.steps{grid-template-columns:1fr}.checklist{grid-template-columns:1fr}.fields{grid-template-columns:1fr}.field.full{grid-column:auto}section{padding:65px 0}.form{padding:22px}.footer-row{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="mark">FM</span><span>FM ENGINEERING SERVICES<small>SOLAR EPC SOLUTIONS</small></span></a>
+    <nav class="links" id="navlinks"><a href="#home">Home</a><a href="#solutions">Solutions</a><a href="#about">About</a><a href="#process">Our Process</a><a href="#contact">Contact</a></nav>
+    <a class="btn dark" href="#contact">Get a Quote <span>↗</span></a>
+    <button class="menu" aria-label="Open menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Smarter energy starts here</div>
+        <h1>Power your future with <span>the sun.</span></h1>
+        <p>Thoughtfully designed solar solutions for homes, businesses and communities. Choose the right system for your energy needs with FM Engineering Services.</p>
+        <div class="hero-actions"><a class="btn" href="#contact">Request a Free Consultation ↗</a><a class="btn outline" href="#solutions">Explore Solutions</a></div>
+        <div class="hero-note"><span>On-Grid Solar</span><span>Off-Grid Solar</span><span>Hybrid Solar</span></div>
+      </div>
+      <div class="hero-visual"><div class="sun"></div><div class="visual-card"><b>Solar, designed around you.</b><small>From initial consultation to installation and system handover.</small></div></div>
+    </div>
+  </section>
+  <div class="trust"><div class="wrap trust-row">
+    <div class="trust-item"><span class="trust-icon">⌂</span><div><b>Residential & Society</b><small>Rooftop solar solutions</small></div></div>
+    <div class="trust-item"><span class="trust-icon">▦</span><div><b>Commercial</b><small>Business energy solutions</small></div></div>
+    <div class="trust-item"><span class="trust-icon">⚡</span><div><b>Custom System Design</b><small>Based on your power needs</small></div></div>
+  </div></div>
+  <section class="services" id="solutions">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Our solar solutions</div><h2>The right solar system for the way you use power.</h2><p>We help you understand the available system types and choose a practical solution based on your site, consumption and backup requirements.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-icon">☀️</div><h3>On-Grid Solar</h3><p>A grid-connected rooftop solar system designed to generate electricity for your property and work in coordination with the utility grid, subject to applicable approvals and net-metering rules.</p><span class="tag">Grid connected</span></article>
+        <article class="card"><div class="card-icon">🔋</div><h3>Off-Grid Solar</h3><p>A standalone solar solution with battery storage for locations or applications that need power independent of the utility grid.</p><span class="tag">Battery storage</span></article>
+        <article class="card"><div class="card-icon">⚡</div><h3>Hybrid Solar</h3><p>A flexible solar solution combining grid connectivity and battery storage to support energy use and backup needs, based on system configuration.</p><span class="tag">Solar + grid + battery</span></article>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-image"><div class="about-badge">Engineered for your energy needs.</div></div>
+      <div class="about-copy"><div class="eyebrow">About FM Engineering Services</div><h2>Reliable solar solutions, planned with care.</h2><p>FM Engineering Services focuses on On-Grid, Off-Grid and Hybrid solar systems. Our approach starts with understanding your electricity requirements and site conditions, then planning a solution that fits your needs.</p><p>We aim to make your move to solar clear and straightforward—from the first discussion through system planning, installation coordination and handover.</p><div class="checklist"><div class="check">Requirement assessment</div><div class="check">System selection</div><div class="check">Project coordination</div><div class="check">Installation & handover</div></div></div>
+    </div>
+  </section>
+  <section class="process" id="process">
+    <div class="wrap"><div class="section-head"><div class="eyebrow">A clear, simple journey</div><h2>From your first call to solar power.</h2><p>A structured process helps keep your solar project clear at every stage.</p></div>
+      <div class="steps">
+        <div class="step"><div class="step-no">01 / DISCOVER</div><h3>Understand your needs</h3><p>Discuss electricity usage, roof or site details, and backup expectations.</p></div>
+        <div class="step"><div class="step-no">02 / DESIGN</div><h3>Plan the system</h3><p>Assess the site and propose a suitable system configuration and scope.</p></div>
+        <div class="step"><div class="step-no">03 / EXECUTE</div><h3>Install & coordinate</h3><p>Coordinate equipment, installation activities and applicable approvals.</p></div>
+        <div class="step"><div class="step-no">04 / HANDOVER</div><h3>Test & hand over</h3><p>Complete checks, explain system operation and hand over relevant documents.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-copy"><div class="eyebrow">Let's talk solar</div><h2>Ready to explore solar for your property?</h2><p>Share a few details about your requirement. We’ll get in touch to discuss a suitable On-Grid, Off-Grid or Hybrid solution.</p>
+        <a class="contact-detail" href="tel:+918898159487"><span class="ci">☎</span><span><b>Call us</b><small>+91 88981 59487</small></span></a>
+        <a class="contact-detail" href="mailto:fmenggservices@gmail.com"><span class="ci">✉</span><span><b>Email</b><small>fmenggservices@gmail.com</small></span></a>
+      </div>
+      <form class="form" id="leadForm"><h3>Get a solar consultation</h3><p>Fill in your details and send your enquiry directly to our team.</p>
+        <div class="fields">
+          <div class="field"><label for="name">Your name *</label><input id="name" required placeholder="Enter your name"></div>
+          <div class="field"><label for="phone">Phone number *</label><input id="phone" required type="tel" placeholder="Your contact number"></div>
+          <div class="field"><label for="system">Solar system type</label><select id="system"><option>Not sure yet</option><option>On-Grid Solar</option><option>Off-Grid Solar</option><option>Hybrid Solar</option></select></div>
+          <div class="field"><label for="capacity">Approx. system size</label><input id="capacity" placeholder="e.g. 5 kW / 10 kW"></div>
+          <div class="field full"><label for="message">Your requirement</label><textarea id="message" placeholder="Tell us about your property or electricity requirement"></textarea></div>
+        </div>
+        <button class="btn dark" type="submit">Send Enquiry via WhatsApp ↗</button>
+        <div class="form-note">Your enquiry will open in WhatsApp so you can review and send it.</div>
+      </form>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap"><div class="footer-row"><div class="footer-brand">FM ENGINEERING SERVICES<small>On-Grid | Off-Grid | Hybrid Solar EPC</small></div><div class="footer-links"><a href="#solutions">Solutions</a><a href="#about">About</a><a href="#contact">Contact</a></div><div class="footer-links"><a href="tel:+918898159487">+91 88981 59487</a><a href="mailto:fmenggservices@gmail.com">Email us</a></div></div><div class="copyright">© <span id="year"></span> FM Engineering Services. All rights reserved.</div></div></footer>
+<a class="float-wa" href="https://wa.me/918898159487?text=Hello%20FM%20Engineering%20Services%2C%20I%20am%20interested%20in%20a%20solar%20system." target="_blank" rel="noopener">WhatsApp us ↗</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('leadForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name=document.getElementById('name').value.trim();
+    const phone=document.getElementById('phone').value.trim();
+    const system=document.getElementById('system').value;
+    const capacity=document.getElementById('capacity').value.trim();
+    const message=document.getElementById('message').value.trim();
+    const body=`Hello FM Engineering Services,%0A%0AI would like to enquire about a solar system.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ASystem: ${encodeURIComponent(system)}%0ACapacity: ${encodeURIComponent(capacity||'Not specified')}%0ARequirement: ${encodeURIComponent(message||'Not specified')}`;
+    window.open(`https://wa.me/918898159487?text=${body}`,'_blank','noopener');
+  });
+</script>
+</body>
+</html>
